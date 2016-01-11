@@ -52,7 +52,7 @@ makePlot4 <- function(outfile) {
   #do the third plot for the assignment - voltage over time
   plot(wrk_data$Timestamp, wrk_data$Voltage, type="l",
        xlab="datetime", ylab="Voltage")
-  
+   
 # do the fourth plot for the assignment - reactive power over time
   plot(wrk_data$Timestamp, wrk_data$GlobalReactivePower, type="l",
        xlab="datetime", ylab="Global_reactive_power")

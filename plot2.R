@@ -31,7 +31,7 @@ makePlot2 <- function(outfile) {
                                GlobalActivePower, GlobalReactivePower, Voltage,
                                GlobalIntensity, Submetering1, Submetering2,
                                Submetering3)) 
-  
+   
   #Plot power over time using the line option to connect data points
   plot(wrk_data$Timestamp, wrk_data$GlobalActivePower, type="l",
        xlab="", ylab="Global Active Power (kilowatts)")

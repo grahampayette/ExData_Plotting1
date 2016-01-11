@@ -12,7 +12,7 @@ makePlot1 <- function(outfile) {
    png(filename = outfile, width = 480, height=480)
  
   txtFile <- "./data/household_power_consumption.txt"
-  
+   
 #read the file, wasn't sure if we were allowed to use any additional librarys so just a basic read
 #taking the "?" in to account
   

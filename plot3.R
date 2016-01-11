@@ -23,7 +23,7 @@ makePlot3 <- function(outfile) {
                         colClasses = c( "character", "character", "numeric",
                                         "numeric", "numeric", "numeric", "numeric",
                                         "numeric", "numeric"))
-
+ 
   #filter out the days we want 
   wrk_data <<- with(subset(allData, Date == "1/2/2007" | Date == "2/2/2007"),
                     data.frame(Timestamp = strptime(paste(Date, Time),
