@@ -12,7 +12,7 @@ The assignment has been completed per the instructions for programming assignmen
 
 1) Download the data
 2) download/upload/source any of the .R files in to R-studio
-3) execute makePlotX("./img/plotX.png") at your command line (substituting a number from 1-4 for X)
+3) execute makePlotX("plotX.png") at your command line (substituting a number from 1-4 for X)
 
 
 Does nothing fancy but you should have a .png output that looks like the samples uploaded by the instructor.  
